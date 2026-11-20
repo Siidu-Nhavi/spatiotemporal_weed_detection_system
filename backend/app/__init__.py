@@ -1,0 +1,1 @@
+"""Weed detection API package."""

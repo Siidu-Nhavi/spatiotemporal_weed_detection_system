@@ -1,0 +1,331 @@
+{
+  "checkpoint": "backend\\models\\cwfid-balanced.pt",
+  "best_mean_iou": 0.6992751644905741,
+  "class_weights": [
+    0.40262481570243835,
+    0.8736147880554199,
+    1.7237603664398193
+  ],
+  "history": [
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.8369632297092013,
+          "dice": 0.9112465793250484,
+          "precision": 0.8369632297092013,
+          "recall": 1.0,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.0,
+          "dice": 0.0,
+          "precision": null,
+          "recall": 0.0,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.0,
+          "dice": 0.0,
+          "precision": null,
+          "recall": 0.0,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.27898774323640047,
+      "evaluated_pixels": 589824,
+      "epoch": 1,
+      "train_loss": 1.2364731485193425
+    },
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.8369632297092013,
+          "dice": 0.9112465793250484,
+          "precision": 0.8369632297092013,
+          "recall": 1.0,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.0,
+          "dice": 0.0,
+          "precision": null,
+          "recall": 0.0,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.0,
+          "dice": 0.0,
+          "precision": null,
+          "recall": 0.0,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.27898774323640047,
+      "evaluated_pixels": 589824,
+      "epoch": 2,
+      "train_loss": 1.042185122316534
+    },
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.9054857442890577,
+          "dice": 0.9503988649643738,
+          "precision": 0.9180319513424434,
+          "recall": 0.9851314971204936,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.5147892441860465,
+          "dice": 0.6796843140547413,
+          "precision": 0.7642827599848945,
+          "recall": 0.6119478200771756,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.07851139625773873,
+          "dice": 0.14559214956867525,
+          "precision": 0.5076028622540251,
+          "recall": 0.08498371457451986,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.4995954615776143,
+      "evaluated_pixels": 589824,
+      "epoch": 3,
+      "train_loss": 0.9680802822113037
+    },
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.9353656850546108,
+          "dice": 0.966603564667643,
+          "precision": 0.9739857763957271,
+          "recall": 0.9593324163747997,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.5830563965012278,
+          "dice": 0.7366211308578299,
+          "precision": 0.6491584413873366,
+          "recall": 0.8513217761907504,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.25251492990131896,
+          "dice": 0.403212646608873,
+          "precision": 0.6321048844831721,
+          "recall": 0.2960203661412901,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.5903123371523858,
+      "evaluated_pixels": 589824,
+      "epoch": 4,
+      "train_loss": 0.9055556546558033
+    },
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.942506834070932,
+          "dice": 0.9704025927113065,
+          "precision": 0.9749332439163024,
+          "recall": 0.9659138558646521,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.5993459540809976,
+          "dice": 0.7494888176653295,
+          "precision": 0.7367952480977089,
+          "recall": 0.7626274261360364,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.3824561403508772,
+          "dice": 0.5532994923857868,
+          "precision": 0.532850258294907,
+          "recall": 0.5753809292051963,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.6414363095009356,
+      "evaluated_pixels": 589824,
+      "epoch": 5,
+      "train_loss": 0.8371032693169334
+    },
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.9403208709582294,
+          "dice": 0.9692426495354358,
+          "precision": 0.9828742801803584,
+          "recall": 0.955983964704524,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.5178484405458089,
+          "dice": 0.6823453866837902,
+          "precision": 0.7709538751745778,
+          "recall": 0.6120054138109774,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.37688110086767895,
+          "dice": 0.5474417516954472,
+          "precision": 0.4077856828516943,
+          "recall": 0.8325783385122234,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.6116834707905724,
+      "evaluated_pixels": 589824,
+      "epoch": 6,
+      "train_loss": 0.7822836204008623
+    },
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.9308407547411583,
+          "dice": 0.9641817974428902,
+          "precision": 0.9876887843657122,
+          "recall": 0.9417677312973883,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.4164900517642223,
+          "dice": 0.5880592683944214,
+          "precision": 0.794224268848283,
+          "recall": 0.4668692046305362,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.30039011703511054,
+          "dice": 0.462,
+          "precision": 0.30981363920857335,
+          "recall": 0.908052862116731,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.5492403078468304,
+      "evaluated_pixels": 589824,
+      "epoch": 7,
+      "train_loss": 0.7566274567083879
+    },
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.9407221895173763,
+          "dice": 0.969455798051464,
+          "precision": 0.9844339937852918,
+          "recall": 0.9549265589139105,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.5495986413674294,
+          "dice": 0.7093432153276039,
+          "precision": 0.7839764369619018,
+          "recall": 0.6476847319011692,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.39143921670565807,
+          "dice": 0.5626393334412714,
+          "precision": 0.42155947892949125,
+          "recall": 0.8456441166560593,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.6272533491968213,
+      "evaluated_pixels": 589824,
+      "epoch": 8,
+      "train_loss": 0.7143619168888439
+    },
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.9414389057896376,
+          "dice": 0.969836241544493,
+          "precision": 0.9847514250516777,
+          "recall": 0.9553661318192038,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.6493704978304085,
+          "dice": 0.7874161671796533,
+          "precision": 0.7158813757025202,
+          "recall": 0.8748344180153199,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.5070160898516761,
+          "dice": 0.6728741561101419,
+          "precision": 0.6817954728872834,
+          "recall": 0.6641832952716109,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.6992751644905741,
+      "evaluated_pixels": 589824,
+      "epoch": 9,
+      "train_loss": 0.6955018151890148
+    },
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.9290483086852274,
+          "dice": 0.9632193289326534,
+          "precision": 0.9881416019702922,
+          "recall": 0.9395232760943238,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.5682419659735349,
+          "dice": 0.7246865959498554,
+          "precision": 0.6773999699534278,
+          "recall": 0.7790704371364395,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.4452296060827355,
+          "dice": 0.6161368466419962,
+          "precision": 0.5108684936908517,
+          "recall": 0.7760473213282917,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.6475066269138327,
+      "evaluated_pixels": 589824,
+      "epoch": 10,
+      "train_loss": 0.6668023412877863
+    }
+  ]
+}

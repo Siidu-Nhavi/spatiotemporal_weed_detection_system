@@ -1,0 +1,38 @@
+{
+  "checkpoint": "backend\\models\\cwfid-baseline.pt",
+  "best_mean_iou": 0.27898774323640047,
+  "history": [
+    {
+      "classes": [
+        {
+          "class_id": 0,
+          "iou": 0.8369632297092013,
+          "dice": 0.9112465793250484,
+          "precision": 0.8369632297092013,
+          "recall": 1.0,
+          "support_pixels": 493661
+        },
+        {
+          "class_id": 1,
+          "iou": 0.0,
+          "dice": 0.0,
+          "precision": null,
+          "recall": 0.0,
+          "support_pixels": 69452
+        },
+        {
+          "class_id": 2,
+          "iou": 0.0,
+          "dice": 0.0,
+          "precision": null,
+          "recall": 0.0,
+          "support_pixels": 26711
+        }
+      ],
+      "mean_iou": 0.27898774323640047,
+      "evaluated_pixels": 589824,
+      "epoch": 1,
+      "train_loss": 0.723915392702276
+    }
+  ]
+}
